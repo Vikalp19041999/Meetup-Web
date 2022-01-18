@@ -7,7 +7,7 @@ function FavoritesPage() {
   let content;
 
   if (favoriteCtx.totalFavorites === 0) {
-    content = <p>There are no favorite meetups for you. Start addding some!</p>;
+    content = <p>There are no favorite meetups for you. Start addding some meetups to add in favorites!</p>;
   } else {
     content = <MeetupList meetups={favoriteCtx.favorites} />;
   }
